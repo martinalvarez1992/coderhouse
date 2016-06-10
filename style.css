@@ -1,0 +1,37 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+
+}
+
+nav{
+	overflow: hidden;
+	height: 40px;
+	background-color: gray;
+
+}
+
+nav > ul > li{
+	display: inline-block;
+}
+
+.logo{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: blue;
+
+}
+
+#slide{
+	height: 500px;
+	background: #D4D4D4;
+
+}
+#services{
+	height: 500px;
+	background: #D5D5D5;
+}
+
