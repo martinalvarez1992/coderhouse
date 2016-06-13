@@ -8,13 +8,17 @@ header{
 
 nav{
 	overflow: hidden;
-	height: 40px;
+	height: 60px;
 	background-color: gray;
 
 }
 
 nav > ul > li{
 	display: inline-block;
+}
+
+section{
+	margin-top: 20px;
 }
 
 .logo{
@@ -26,6 +30,7 @@ nav > ul > li{
 }
 
 #slide{
+	position: relative;
 	height: 500px;
 	background: #D4D4D4;
 
@@ -35,3 +40,27 @@ nav > ul > li{
 	background: #D5D5D5;
 }
 
+.service-element{
+	float: left;
+    width: 25%;
+    text-align: center;
+}
+#search-content{
+	position: absolute;
+	width: 100%;
+    bottom: 0px;
+}
+#search-bar{
+	width: 60%;
+    margin: 0 auto;
+}
+
+.input-search, .button-search {
+	padding: 20px;
+	margin-left: -5px;
+
+}
+
+.input-search{
+	width: 80%;
+}
