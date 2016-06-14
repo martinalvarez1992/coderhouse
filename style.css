@@ -18,7 +18,9 @@ nav > ul > li{
 }
 
 section{
+	overflow: hidden;
 	margin-top: 50px;
+	background: #D5D5D5;
 }
 
 .logo{
@@ -33,11 +35,14 @@ section{
 	position: relative;
 	height: 500px;
 	background: #D4D4D4;
+	overflow: visible;
 
 }
+
+/* Services section*/
+
 #services{
-	height: 500px;
-	background: #D5D5D5;
+	height: 250px;
 	padding: 60px 20px;
 }
 
@@ -45,6 +50,7 @@ section{
 	float: left;
     width: 25%;
     text-align: center;
+    margin-top: 40px;
 }
 #search-content{
 	position: absolute;
@@ -64,4 +70,27 @@ section{
 
 .input-search{
 	width: 80%;
+}
+
+/* Phone section*/
+
+.col-md-3{
+	float: left;
+	width: 33.33%;
+}
+
+.phone{
+	margin-left: -178px;
+}
+
+/* Deals section */
+
+.deal{
+	float: left;
+}
+
+/* Generico */
+
+.text-right{
+	text-align: right;
 }
