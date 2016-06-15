@@ -7,14 +7,23 @@ header{
 }
 
 nav{
+	position: relative;
 	overflow: hidden;
 	height: 60px;
 	background-color: gray;
 
 }
 
+nav > ul {
+	margin: 0px;
+    width: 177px;
+    position: absolute;
+
+}
+
 nav > ul > li{
 	display: inline-block;
+	margin: 21px;
 }
 
 section{
@@ -22,6 +31,8 @@ section{
 	margin-top: 50px;
 	background: #D5D5D5;
 }
+
+
 
 .logo{
 	float: left;
@@ -46,7 +57,7 @@ section{
 	padding: 60px 20px;
 }
 
-.service-element{
+.service-item{
 	float: left;
     width: 25%;
     text-align: center;
@@ -60,6 +71,7 @@ section{
 #search-bar{
 	width: 60%;
     margin: 0 auto;
+    min-width: 600px;
 }
 
 .input-search, .button-search {
@@ -75,22 +87,32 @@ section{
 /* Phone section*/
 
 .col-md-3{
-	float: left;
-	width: 33.33%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 33.33%;
+    height: 512px;
 }
 
 .phone{
-	margin-left: -178px;
+	position: absolute;
+	max-width: 100%;
+    height: auto;
+
 }
 
 /* Deals section */
 
-.deal{
+.deal-item{
 	float: left;
+	width: 25%;
+    text-align: center;
 }
 
 /* Generico */
-
+.title{
+	text-align: center;
+}
 .text-right{
 	text-align: right;
 }
