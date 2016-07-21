@@ -1,0 +1,120 @@
+
+body{
+	font-family: 
+	height: 100%;
+}
+/* Header */
+header{
+	background: url('Assets/bg.png');
+	height: 100%;
+}
+
+header .container .row{
+	padding: 150px 0px;
+	color:white;
+}
+header h1{
+	font-size: 50px;
+	font-family: 'Open Sans', sans-serif;
+}
+header h1 .bold{
+	color: #f6ee00;
+	font-weight: bold;
+}
+
+header	a{
+	list-style: none;
+	color: white;
+}
+
+header a:hover{
+
+	background: transparent!important;
+}
+
+nav{
+	padding: 45px 0px;
+	text-transform: uppercase!important;
+}
+
+.navbar li{
+	 margin-right: 30px;
+
+}
+
+nav button{
+	color: black!important;
+	text-transform: uppercase;
+	padding-left: 28px!important;
+    padding-right: 28px!important;
+
+}
+
+img{
+	max-width: 100%;
+	max-height: 64px;
+}
+
+.navbar-brand{
+	margin-top: -20px;
+}
+/*  Fin Header */
+
+section{
+	height: 60%;
+}
+
+
+#section-1 h1,#section-2 h1,footer h1{
+	font-size: 70px;
+	text-transform: uppercase;
+
+}
+
+#section-1 .container{
+	padding: 127px 0px;
+}
+
+#section-2 .container{
+	padding: 90px 0px;
+
+}
+
+
+#section-1{
+	background-color: #f6ee00;
+}
+
+#section-2{
+
+}
+
+footer{
+    padding: 114px 0px;
+    background: #333333;
+    color: white;
+    height: 50%;
+}
+
+footer .form-control{
+	border: 0px;
+	background: gray;
+	color: black;
+}
+
+footer  input{
+	padding: 23px!important;
+}
+
+/* Custom Buttons */
+
+.btn{
+    border: 0px; 
+}
+
+.btn-primary{
+	color: black;
+    background-color: #f6ee00;
+    text-transform: uppercase;
+}
+
